@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 #define W_MAX 12
 #define H_MAX 33
@@ -6,9 +6,9 @@ int main(void)
 {
 	int sel = 0;
 	char Board[W_MAX][H_MAX] = { {'0',}, };
-	memset(Board, 0, sizeof(char)*W_MAX*H_MAX); // memsetÀ» ÅëÇÑ Board¹è¿­ ÃÊ±âÈ­
-	printf("T_E_T_R_I_S\n¡Ø ÀÌ °ÔÀÓÀº ÇÑ ÁÙ ¿Ï¼º½Ã 1Á¡ÀÌ ºÎ¿©µÇ¸ç, 100Á¡ ´Ş¼º½Ã Å¬¸®¾î ¸Ş½ÃÁö¿Í ÇÔ²² ÀÚµ¿À¸·Î Á¾·áµË´Ï´Ù.\n\n");
-	printf("°ÔÀÓÀ» ½ÃÀÛÇÏ½Ã·Á¸é 1À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	memset(Board, 0, sizeof(char)*W_MAX*H_MAX); // memsetì„ í†µí•œ Boardë°°ì—´ ì´ˆê¸°í™”
+	printf("T_E_T_R_I_S\nâ€» ì´ ê²Œì„ì€ í•œ ì¤„ ì™„ì„±ì‹œ 1ì ì´ ë¶€ì—¬ë˜ë©°, 100ì  ë‹¬ì„±ì‹œ í´ë¦¬ì–´ ë©”ì‹œì§€ì™€ í•¨ê»˜ ìë™ìœ¼ë¡œ ì¢…ë£Œë©ë‹ˆë‹¤.\n\n");
+	printf("ê²Œì„ì„ ì‹œì‘í•˜ì‹œë ¤ë©´ 1ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d", &sel);
 	if (sel == 1)
 	{
@@ -33,7 +33,7 @@ int main(void)
 
 	}
 	else
-		printf("\n1ÀÌ ¾Æ´Ñ °ªÀÌ ÀÔ·ÂµÇ¾úÀ¸¹Ç·Î °ÔÀÓ ½ÇÇàÀ» Á¾·áÇÕ´Ï´Ù.\n\n");
+		printf("\n1ì´ ì•„ë‹Œ ê°’ì´ ì…ë ¥ë˜ì—ˆìœ¼ë¯€ë¡œ ê²Œì„ ì‹¤í–‰ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.\n\n");
 	
 	return 0;
 
