@@ -6,7 +6,7 @@ int main(void)
 {
 	int sel = 0;
 	char Board[W_MAX][H_MAX] = { {'0',}, };
-	memset(Board, 0, sizeof(char)*W_MAX*H_MAX);
+	memset(Board, 0, sizeof(char)*W_MAX*H_MAX); // memset을 통한 Board배열 초기화
 	printf("T_E_T_R_I_S\n※ 이 게임은 한 줄 완성시 1점이 부여되며, 100점 달성시 클리어 메시지와 함께 자동으로 종료됩니다.\n\n");
 	printf("게임을 시작하시려면 1을 입력하세요 : ");
 	scanf("%d", &sel);
