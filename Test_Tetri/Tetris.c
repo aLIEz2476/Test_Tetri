@@ -2,8 +2,23 @@
 #include <string.h>
 #define W_MAX 12
 #define H_MAX 33
+typedef struct {
+	char Block_Hori[4][2];
+	char Block_Vert[2][4];	
+	char Block_Bar[4];
+	char Block_Dice[2][2];
+}Blocks;
+
 int main(void)
 {
+	Blocks Z_Stair; Blocks RZ_Stair;
+	Blocks L_Block; Blocks RL_Block;
+	Blocks Dice; Blocks Bar;
+
+
+
+	
+	
 	int sel = 0;
 	char Board[W_MAX][H_MAX] = { {'0',}, };
 	memset(Board, 0, sizeof(char)*W_MAX*H_MAX); // memset을 통한 Board배열 초기화
