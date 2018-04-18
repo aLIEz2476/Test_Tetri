@@ -122,7 +122,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Test.cpp" />
-    <ClCompile Include="Tetris.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="examtxt.txt" />
